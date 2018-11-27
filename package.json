@@ -1,0 +1,26 @@
+{
+  "name": "simple-chat",
+  "version": "1.0.0",
+  "description": "A simple chatter application ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghunathVadlakonda/simple-chat.git"
+  },
+  "author": "Raghunath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaghunathVadlakonda/simple-chat/issues"
+  },
+  "homepage": "https://github.com/RaghunathVadlakonda/simple-chat#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "socket.io": "^2.1.1"
+  }
+}
